@@ -7,7 +7,7 @@ Build headers that can contain additional info within parentesis: "Weight (kg)".
 This can be a conveniant way to handle 3rd party csv-files or an easy way for a domain expert to configure how a set of data should be handled such as a csv file.
 
 ## Usage
-A header transformation rule is given in the form [:when-header <header-field> <evaluation> <argument> :do-apply [<transformations>]
+A header transformation rule is given in the form [:when-header 'header-field' 'evaluation' 'argument' :do-apply ['transformations']
 
 The current possible values are:
 * <header-field> : :info
